@@ -5,6 +5,7 @@ const express = require("express"),
   ParseServer = require("parse-server").ParseServer,
   app = express(),
   httpServer = require("http").createServer(app),
+  ParseDashboard = require("parse-dashboard"),
   mountPath = "/parse",
   port = 1337,
   cors = require('cors'),
@@ -28,8 +29,20 @@ var api = new ParseServer({
   },
 });
 
+/* configurações para executar junto com servidor. */
+var dashboard = new ParseDashboard({
+  apps: [
+    {
+      serverURL: "http://localhost:1337/parse",
+      appId: "myAppId",
+      masterKey: "1234",
+      appName: "Filmes",
+    },
+  ],
+});
 
 app.use(express.static("public"));
+app.use("/dashboard", dashboard);
 app.use('/filme', filme);
 app.use(mountPath, api);
 app.use(cors());
