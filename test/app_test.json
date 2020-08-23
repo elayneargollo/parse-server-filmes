@@ -1,0 +1,8 @@
+
+  {
+    "arquivoLista": "lista.json",
+    "query": {
+      "key": "titulo",
+      "value": "The Dark Knight"
+    }
+  }

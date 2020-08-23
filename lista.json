@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Titanic",
+    "descricao": "Um artista pobre e uma jovem rica se conhecem e se apaixonam na fatídica jornada do Titanic, em 1912. Embora esteja noiva do arrogante herdeiro de uma siderúrgica, a jovem desafia sua família e amigos em busca do verdadeiro amor.",
+    "dataLancamento": "2010",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/d/d1/The_Dark_Knight.jpg/250px-The_Dark_Knight.jpg"
+  },
+  {
+    "titulo": "The Dark Knight",
+    "descricao": "Com a ajuda de Jim Gordon e Harvey Dent, Batman tem mantido a ordem na cidade de Gotham. Mas um jovem e anárquico criminoso conhecido como Coringa ganha força e decide instaurar um verdadeiro caos na cidade. O justiceiro será testado psicologicamente e fisicamente como nunca fora antes em um confronto bastante pessoal. Cabe a Batman encontrar uma maneira de deter o sádico vilão antes que mais vidas sejam perdidas.",
+    "dataLancamento": "2011",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/2/22/Titanic_poster.jpg"
+  },
+  {
+    "titulo": "Joker",
+    "descricao": "Joker é ambientado em 1981, e representa Arthur Fleck, um comediante de stand-up fracassado, que é levado à loucura e se envolve em uma vida de crimes e caos em Gotham City.",
+    "dataLancamento": "2019",
+    "imagem": "https://upload.wikimedia.org/wikipedia/pt/thumb/6/63/Joker_%282019%29.jpg/250px-Joker_%282019%29.jpg"
+  }
+]
